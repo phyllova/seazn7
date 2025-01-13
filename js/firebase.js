@@ -1,4 +1,6 @@
 // Initialize Firebase
+/*
+
 const firebaseConfig = {
   apiKey: "AIzaSyA2c_NmRATFI-gKacQUsZAkZopdH1j8rjk",
   authDomain: "arabheritagehub.firebaseapp.com",
@@ -8,6 +10,8 @@ const firebaseConfig = {
   messagingSenderId: "966723291576",
   appId: "1:966723291576:web:71829ec965a0752bb5a74d",
 };
+
+*/
 firebase.initializeApp(firebaseConfig);
 const appCheck = firebase.appCheck();
 appCheck.activate("6Lf544sgAAAAAIYRP96xR6Zd5bDJwPD9dh7bo3jW", true);
